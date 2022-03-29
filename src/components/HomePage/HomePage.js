@@ -10,8 +10,8 @@ const HomePage = () => {
         <img src={banner} alt="" className="w-100" />
       </div>
       {/* Welcome info section */}
-      <div className="d-flex container my-5 ">
-        <div className="welcome me-5">
+      <div className="d-flex container welcome-section">
+        <div className="me-5">
           <p className="welcome-header text-info border-start border-3 border-info ps-2">
             WELCOME THERE!
           </p>
@@ -31,6 +31,45 @@ const HomePage = () => {
         </div>
         <div>
           <img src={person} alt="" />
+        </div>
+      </div>
+      {/* details section */}
+      <div className="d-flex">
+        <div className="cards card-color">
+          <div className="cards-info">
+            <h1>01</h1>
+            <h2>Fashion and Luxury</h2>
+          </div>
+          <p>
+            At the core of every project that will be released by Venturastic in
+            fashion and luxury, there will be quintessentially a strong
+            commitment to unmatched creativity and quality, aligned with the
+            changing needs of the international market.
+          </p>
+        </div>
+        <div className="cards">
+          <div className="cards-info">
+            <h1>02</h1>
+            <h2 className="ms-3">Media and Entertainment</h2>
+          </div>
+          <p>
+            forward-looking Media and entertainment business, whose mission is
+            to enable unique Investment opportunities, by allowing investors to
+            express their aspirations and aesthetics with the highest level of
+            quality and refinement.
+          </p>
+        </div>
+        <div className="cards card-color">
+          <div className="cards-info">
+            <h1>03</h1>
+            <h2>Technology</h2>
+          </div>
+          <p>
+            Technology growth has been led by the rapid advancement and
+            proliferation of Artificial intelligence, cloud, and machine
+            learning, virtually impacting every business and consumer in it's
+            path.
+          </p>
         </div>
       </div>
     </div>

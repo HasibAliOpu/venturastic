@@ -1,5 +1,7 @@
-.welcome {
+.welcome-section {
   position: relative;
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 .welcome-header {
   font-family: "Montserrat";
@@ -27,4 +29,37 @@
 .welcome-btn:hover {
   background-color: #009cc4;
   color: aliceblue;
+}
+.cards {
+  width: 480px;
+  height: 367px;
+  padding: 76px 63px 63px 75px;
+}
+.card-color {
+  background: #f3f0e9;
+}
+.cards-info {
+  display: flex;
+  align-items: center;
+  /* gap: 30px; */
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.cards-info h1 {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63px;
+
+  text-align: center;
+
+  color: #009cc4;
+}
+.cards-info h2 {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
 }
