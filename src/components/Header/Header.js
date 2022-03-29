@@ -8,11 +8,12 @@ const Header = () => {
       <img src={logo} alt="" />
       <div className="nav-btn">
         <CustomLink to="/">HOME</CustomLink>
-        <CustomLink to="/">WHAT WE WOULD DO</CustomLink>
-        <CustomLink to="/">CORPORATE GOVERNANCE</CustomLink>
-        <CustomLink to="/">FIRST PROJECT</CustomLink>
-        <CustomLink to="/">ABOUT US</CustomLink>
-        <CustomLink to="/">OUR TEAM</CustomLink>
+        <CustomLink to="/whatWeWouldDo">WHAT WE WOULD DO</CustomLink>
+        <CustomLink to="/corporate">CORPORATE GOVERNANCE</CustomLink>
+        <CustomLink to="/firstProject">FIRST PROJECT</CustomLink>
+        <CustomLink to="/aboutUs">ABOUT US</CustomLink>
+        <CustomLink to="/ourTeam">OUR TEAM</CustomLink>
+        {/* <CustomLink to="*"></CustomLink> */}
       </div>
     </div>
   );
